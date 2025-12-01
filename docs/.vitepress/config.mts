@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/tools-review/",
   title: "Tools Review",
   description: "In-depth reviews of interesting online tools",
   themeConfig: {
